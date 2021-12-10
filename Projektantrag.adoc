@@ -1,0 +1,15 @@
+= Try2Cheat
+
+== Projektmietglieder:
+* Alo Rsheed
+* Gabriel Papic
+* Berdan Kadir
+* Simon Raaber
+
+== Projektbeschreibung:
+Try2Cheat ist eine App die es verhindern soll, während eines Tests zu schummeln.
+Eine Person kann eine Gruppe erstellen, diese Person ist dann der Admin der Gruppe.
+Der Admin kann Tests erstellen und Fragen hochladen.
+Der Admin kann die Bildschirme der anderen sehen.
+Wenn während des Tests das Fenster gewechselt wird, wird der Test automatisch abgegeben.
+Der Admin kann nach der Abgabe der Tests die Ergebnisse bekannt geben und Fragen der Gruppenmitglieder beantworten.
