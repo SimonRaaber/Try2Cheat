@@ -1,0 +1,38 @@
+@startuml
+
+title Try2Cheat - Class Diagram
+
+class Group {
+    persons : List<Person>
+    admin : Person
+}
+
+class Person {
+    id : int
+    name : String
+}
+
+class Test {
+    tester : Person
+    participants : List<Person>
+    questions : List<Question>
+    getResults() : TestResults
+}
+
+class Question {
+    question : String
+    answer : String
+}
+
+class TestResults {
+    grade : HashMap<Person, int>
+    getGrade(Person person) : int
+    getGrades() : HashMap<Person, int>
+}
+
+
+Group --> Person
+Test --> Question
+Test --> Person
+
+@enduml
